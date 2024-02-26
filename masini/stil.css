@@ -1,0 +1,294 @@
+#header{
+    background-image: url(imagini/Untitled.png);
+    background-repeat: no-repeat;
+    background-size: cover;     
+    height: 90px;
+}
+
+#centered-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#text-titlu{
+    margin: 0;
+    color: white;
+    font-size: 30px;
+}
+
+#content{
+    text-align: center;
+    background-color: antiquewhite;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#content #cele3{
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+#formular .form {
+    display: inline-block; /* pentru a face ca form-urile să fie afișate pe aceeași linie */
+    margin: 0 12px; /* adaugă o margine de 10 pixeli la stânga și la dreapta */
+  }
+
+.buton {
+    margin-bottom: 25px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.buton{
+    display: flex;
+    justify-content: center;
+}
+
+
+#content #cele3 {
+    display: inline-flex;
+    justify-content: space-between;
+  }
+  
+  #content #cele3 .myform {
+    margin: 0 5px; /* adăugați o margine de 5px la stânga și la dreapta a fiecărui formular */
+  }
+
+
+.buton:hover{
+    background-color: darkblue;
+}
+
+#info{
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+
+#info img {
+    float: left;
+    margin-right: 20px;
+    background-color: transparent;
+  }
+
+
+
+#info #titlu{
+    margin-top: 30px;
+    text-align: center;
+    color: blueviolet;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#info #desprenoi{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+#nu{
+    color: red;
+    text-align: center;
+    margin-left: 100px;
+}
+
+
+
+input[type="text"], input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+
+  input[type="email"]{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    width: 100%;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+
+  #formsub input[type="submit"] {
+    /* display: flex;
+    justify-content: center; */
+    width: 130px;
+    height: 60px;
+    border-radius: 15px;
+    /* Stilizarea pentru elementul <input type="submit"> */
+    padding: 10px 20px;
+    background-color: violet;
+    border: 1px solid #ccc;
+    color: black;
+    cursor:crosshair;
+    font-size: 25px;
+  }
+
+  #formsub input[type="submit"]:hover {
+    /* Stilizarea pentru starea hover (când utilizatorul plasează cursorul peste buton) */
+    background-color: darkviolet;
+  }
+
+    #formsub input[type="submit"]{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    #formaut{
+       /* display: flex;
+        justify-content: center; */
+        width: 130px;
+        height: 60px;
+        border-radius: 15px;
+        /* Stilizarea pentru elementul <input type="submit"> */
+        padding: 10px 20px;
+        background-color: red;
+        border: 1px solid #ccc;
+        color: black;
+        cursor: pointer;
+        font-size: 15px; 
+    }
+
+    #formaut input[type="submit"]{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        }
+
+    #formaut input[type="submit"]:hover {
+        /* Stilizarea pentru starea hover (când utilizatorul plasează cursorul peste buton) */
+        background-color: rgb(128, 240, 186);
+      }
+
+      
+
+
+  footer {
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    background-color: #ee9d9d;
+    margin-top: 20px;
+    display: flex;
+    
+}
+
+#listalogo {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+
+
+#contact {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#mailtel {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    list-style: none;
+    margin-left: 50px;
+    padding: 0;
+}
+
+#mailtel li {
+    display: flex;
+    align-items: center;
+}
+
+#adresa{
+    display: flex;
+    align-items: center;
+    margin-left: 668px;
+}
+
+.logo {
+    margin: 0 10px;
+}
+
+/* Chenaradministrator */
+  #chenaradmin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#chenaradmin form {
+    display: flex;
+    align-items: center;
+}
+
+#chenaradmin h5 {
+    display: inline;
+    margin: 10px;
+    font-size: medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#chenaradmin input[type="text"],
+#chenaradmin button {
+    margin: 10px;
+}
+
+#chenaradmin button {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(239, 155, 155);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#chenaradmin button:hover {
+    border-radius: 10px;
+    background-color: aquamarine;
+}
+
+#infoadmin{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* Chenaradministrator */
+
+#titlu-anunt{
+    width: 100%;
+    height: 80px;
+    background-color: cyan;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    text-align: center;
+    font-size:50px;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ #titlu-anunt p{
+    margin-top: 1px;
+ }
+
+#titlu-anunt img {
+    display: inline-block;
+    margin-right: 1100px; 
+}
