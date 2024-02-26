@@ -1,0 +1,3 @@
+--> "masini" project is the project for the tehnical university
+--> "lab5BigProject" is the project for the restaurant 
+--> "VC MitroiStefan - Engleza" is my CV
